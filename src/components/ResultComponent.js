@@ -90,7 +90,7 @@ class ResultComponent extends Component {
               <TableCell align="right">{row.departure}</TableCell>
               <TableCell align="right">{row.arrival}</TableCell>
               <TableCell align="right">{row.transport}</TableCell>
-              <TableCell align="right">{row.cost} Euros</TableCell>
+              <TableCell align="right">{(row.cost * (1 - (row.discount / 100)))} Euros</TableCell>
               <TableCell align="right">{row.duration.h} hours and {row.duration.m} mins</TableCell>
             </TableRow>
           ))}
