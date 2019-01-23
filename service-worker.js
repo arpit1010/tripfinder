@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/tripfinder/precache-manifest.b7823ed6bb4850d6cbc9a132d3d02fc8.js"
+  "/tripfinder/precache-manifest.55a0d1a25593cc53ad05d16efaee6a4c.js"
 );
 
 workbox.clientsClaim();
