@@ -101,8 +101,6 @@ class DrpContainerSrch extends React.Component {
             selectedDeparture: "",
         selectedArrival: "",
         tabvalue:0,
-        groupmap:new Map(),
-        referencemap:new Map(),
         searchResult: [],
           })
      }
